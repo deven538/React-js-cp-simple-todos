@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button-align {
+  text-align: right;
+  margin-left: 35px;
+}
+
+.button {
+  color: #ff0b37;
+  border-color: #ff0b37;
+  border-radius: 10px;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.todo-title {
+  color: #000000;
+  font-size: 20px;
+}
